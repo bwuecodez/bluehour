@@ -1,0 +1,167 @@
+@font-face {
+  font-family: 'Material Symbols Outlined';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/materialsymbolsoutlined/v86/kJF1BvYX7BgnkSrUwT8OhrdQw4oELdPIeeII9v6oDMzByHX9rA6RzazHD_dY43zj-jCxv3fzvRNU22ZXGJpEpjC_1v-p_4MrImHCIJIZrDCvHOej.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'Material Symbols Outlined Open';
+  font-style: normal;
+  font-weight: 100;
+  src: url(https://fonts.gstatic.com/s/materialsymbolsoutlined/v86/kJF1BvYX7BgnkSrUwT8OhrdQw4oELdPIeeII9v6oDMzByHX9rA6RzaxHMPdY43zj-jCxv3fzvRNU22ZXGJpEpjC_1n-q_4MrImHCIJIZrDCvHeej.woff2) format('woff2');
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&family=Rozha+One&display=swap');
+
+::-webkit-scrollbar {
+width: 2px;
+height: 2px;
+}
+
+::-webkit-scrollbar-track {
+background-color:rgba(30,30,30);
+}
+
+::-webkit-scrollbar-thumb {
+background-color: rgb(var(--mgrgb2),0);
+}
+
+.bojack { margin: 10px auto;
+position: relative;
+width: 400px;
+height: 100px;
+border-radius: 5px 5px 0px 0px;
+background: rgb(15,15,15);
+}
+
+.bojack h1 { float: right;
+display: inline;
+margin-top: 35px;
+margin-right: 35px;
+font-family: 'Rozha One', serif;
+font-weight: bold;
+font-size: 40px;
+font-style: italic;
+text-shadow: 1px 1px 2px rgb(var(--mgrgb2),100);
+}
+
+.bojack h1:after { content: "";
+margin: 15px 0 0;
+height: 1px;
+background: var(--partGradientTR);
+display: block;
+}
+
+.beatrice { margin: -10px auto;
+position: relative;
+width: 300px;
+background: rgb(30, 30, 30);
+padding: 50px;
+}
+
+.crackerjack { position: relative;
+background: rgb(30, 30, 30),0;
+overflow-y: scroll;
+height: 400px;
+}
+
+.honey { text-align: justify;
+text-transform: lowercase;
+font-weight: 100;
+font-size: 12px;
+line-height: 200%;
+}
+
+.honey h1 { 
+border-bottom: 1px solid rgb(0,0,0);
+padding: 10px;
+font-size: 14px;
+border-radius: 3px;
+}
+
+.joseph { color: rgb(var(--mgrgb2),100);
+font-family: 'Material Symbols Outlined Open';
+font-variation-settings:
+'FILL' 0,
+'wght' 100,
+'GRAD' 0,
+'opsz' 48;
+font-size: 24px;
+display: inline;
+position: relative;
+float: right;
+}
+
+.diane { margin: 10px auto;
+position: relative;
+width: 400px;
+height: 150px;
+border-radius: 0px 0px 5px 5px;
+background: linear-gradient(
+90deg,
+rgba(var(--mgrgb1), 0.50) 10%,
+rgba(var(--mgrgb2), 0.50) 50%,
+rgba(var(--mgrgb3), 0.50) 100%);
+}
+
+.guy { position: absolute;
+z-index: 1;
+top: 0;
+left: 0;
+margin-top: 25px;
+margin-left: 25px;
+background-color: rgb(15,15,15);
+height: 60px;
+padding: 20px;
+width: 160px;
+border-radius: 3px;
+}
+
+.todd { overflow-y: hidden;
+height: 60px;
+line-height: 125%;
+text-transform: lowercase;
+font-size: 10px;
+font-weight: 300;
+color: rgb(133,133,133);
+font-family: 'Inconsolata', monospace;
+}
+
+.princess { border-bottom: 150px solid rgb(15,15,15);
+border-left: 75px solid transparent;
+border-right: 0px solid transparent;
+width: 50px;
+float: right;
+display: inline;
+}
+
+.judah { position: absolute;
+z-index: 1;
+top: 0;
+right: 0;
+margin-top: 25px;
+margin-right: 35px;
+border: 15px solid rgba(15,15,15,100);
+border-radius: 50%;
+height: 75px;
+width: 75px;
+overflow: hidden;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.credz { position: absolute;
+z-index: 2;
+top: 0;
+right: 0;
+margin-top: 125px;
+margin-right: 10px;
+color: rgb(133,133,133);
+font-size: 12px;
+font-family: 'Material Symbols Outlined';
+}
+
+.credz a:hover { color: rgb(var(--mgrgb2),100);
+}
